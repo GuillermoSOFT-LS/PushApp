@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "pushApp",
-    "slug": "pushApp",
+    "slug": "pushapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -37,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b2bbe6a9-98f5-470e-9b53-7b4bc419a71f"
+      }
+    },
+    "owner": "guillermosof"
   }
 }
